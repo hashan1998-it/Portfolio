@@ -1,8 +1,8 @@
 export const Bio = {
   name: "Hashan Sooriyage",
   roles: [
-    "Full Stack Developer",
-    "App Developer",
+    "a Full Stack Developer",
+    "an App Developer",
   ],
   description:
     "I am a self-motivated and enthusiastic individual with a proven ability to adapt to various technology stacks and excel in problem-solving and interpersonal skills. I thrive under pressure and eagerlyembrace new challenges, always seeking opportunities for learning and growth",
