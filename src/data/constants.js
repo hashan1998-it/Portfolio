@@ -7,7 +7,7 @@ export const Bio = {
   description:
     "I am a self-motivated and enthusiastic individual with a proven ability to adapt to various technology stacks and excel in problem-solving and interpersonal skills. I thrive under pressure and eagerlyembrace new challenges, always seeking opportunities for learning and growth",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1iVUfJPWDfwWJUWWsx8zs4yzRFXC0poh7/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/hashan-sooriyage-b53067205",
   github:"https://github.com/hashan1998-it",
   twitter: "",
