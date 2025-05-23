@@ -56,7 +56,7 @@ const ResearchCard = ({ project, index }) => (
 export default function Research() {
   return (
     <Section id="research" title="Research & Major Projects" className="py-20">
-      <div className="grid lg:grid-cols-3 gap-6">
+      <div className="flex flex-col gap-6 max-w-3xl mx-auto">
         {research.map((project, index) => (
           <ResearchCard key={index} project={project} index={index} />
         ))}

@@ -5,17 +5,15 @@ import { motion } from 'framer-motion'
 import { experience } from '@/data/experience'
 
 const TimelineItem = ({ item, index }) => {
-  const isLeft = index % 2 === 0
-
   return (
     <motion.div
-      className={`relative flex ${isLeft ? 'justify-start' : 'justify-end'}`}
-      initial={{ opacity: 0, x: isLeft ? -50 : 50 }}
-      whileInView={{ opacity: 1, x: 0 }}
+      className="relative flex justify-center"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
       viewport={{ once: true }}
     >
-      <div className={`w-5/12 ${isLeft ? 'text-right' : 'text-left'}`}>
+      <div className="w-full max-w-3xl">
         <div className="glass rounded-lg p-6">
           <h3 className="text-xl font-semibold text-foreground mb-2">
             {item.title}
@@ -37,7 +35,7 @@ const TimelineItem = ({ item, index }) => {
       </div>
       
       {/* Timeline dot */}
-      <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full z-10" />
+      <div className="absolute left-1/2 transform -translate-x-1/2 top-0 w-4 h-4 bg-primary rounded-full z-10" />
     </motion.div>
   )
 }
@@ -45,9 +43,9 @@ const TimelineItem = ({ item, index }) => {
 export default function Experience() {
   return (
     <Section id="experience" title="Experience" className="py-20">
-      <div className="relative">
+      <div className="relative max-w-3xl mx-auto">
         {/* Timeline line */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-foreground-muted/20" />
+        <div className="absolute left-1/2 transform -translate-x-1/2 top-0 h-full w-0.5 bg-foreground-muted/20" />
         
         <div className="relative space-y-12">
           {experience.map((item, index) => (
