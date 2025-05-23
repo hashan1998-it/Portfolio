@@ -1,44 +1,20 @@
-import { Award, Book, Code, Database, Globe } from 'lucide-react'
+import { Award } from 'lucide-react'
 
 export const certificates = [
   {
-    title: "Web Development Bootcamp",
-    issuer: "Udemy",
+    title: "Dean's List",
+    issuer: "Sabaragamuwa University of Sri Lanka",
     date: "2023",
-    description: "Complete Web Development course covering HTML5, CSS3, JavaScript, React, MongoDB, and Node.js",
-    verifyUrl: "#",
-    icon: Globe
+    description: "Recognized for achieving a 4.0 GPA in the first year of BSc. Honors Degree in Computing & Information Systems.",
+    verifyUrl: null,
+    icon: Award
   },
   {
-    title: "React - The Complete Guide",
-    issuer: "Udemy",
+    title: "Second Place Winner - IT Category Innova 2023",
+    issuer: "Faculty of Management Studies, Sabaragamuwa University",
     date: "2023",
-    description: "Comprehensive React course including Hooks, Context API, Next.js, and Redux",
-    verifyUrl: "#",
-    icon: Code
-  },
-  {
-    title: "Flutter & Dart Development",
-    issuer: "Coursera",
-    date: "2022",
-    description: "Mobile development with Flutter and Dart, building cross-platform applications",
-    verifyUrl: "#",
-    icon: Globe
-  },
-  {
-    title: "Database Design and Programming",
-    issuer: "Oracle Academy",
-    date: "2021",
-    description: "Database concepts, SQL, PL/SQL, and Oracle database administration",
-    verifyUrl: "#",
-    icon: Database
-  },
-  {
-    title: "Dean's List Recognition",
-    issuer: "Sabaragamuwa University",
-    date: "2022",
-    description: "Selected for highest performance in Second Year Examination",
-    verifyUrl: "#",
+    description: "Awarded second place in the IT category at Innova 2023 for innovative project work.",
+    verifyUrl: null,
     icon: Award
   }
-]
+];

@@ -16,16 +16,6 @@ const educationData = [
       "Active participation in tech competitions"
     ]
   },
-  {
-    degree: "G.C.E Advanced Level - Science Stream",
-    school: "Sewamuktha Kandaura Maha Vidyalaya",
-    period: "2015 - 2018",
-    location: "Polonnaruwa",
-    details: [
-      "Science stream with Mathematics specialization",
-      "Laid strong foundation for computing and analytical thinking"
-    ]
-  }
 ]
 
 const EducationCard = ({ data, index }) => (

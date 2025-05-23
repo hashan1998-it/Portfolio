@@ -1,28 +1,16 @@
 export const experience = [
   {
     title: "Software Engineering Intern",
-    organization: "Affno Asia Pacific Private Limited",
+    organization: "Affno Asia Pacific (Pvt) Ltd",
     period: "2024 - 2025",
     description:
-      "Working as a software engineering intern at Affno Asia Pacific, a leading specialist in mobile innovation, web development, and workplace automation. Contributing to e-Government and m-Government solutions deployed across various countries including Sri Lanka, UAE, Kenya, and Maldives.",
+      "Built responsive web applications with React and Tailwind CSS, serving 5,000+ daily users with high performance and accessibility. Developed secure RESTful APIs using Node.js and Express, streamlining data workflows for business-critical applications. Optimized application performance through code reviews and refactoring, reducing page load times by 20%. Collaborated in an Agile environment to deliver software aligned with business requirements.",
     technologies: [
       "React",
-      "Laravel",
-      "Mobile Development",
-      "Web Development",
-      "Database Management",
-    ],
-  },
-  {
-    title: "BSc Computing & Information Systems",
-    organization: "Sabaragamuwa University of Sri Lanka",
-    period: "2020 - 2025",
-    description:
-      "Currently pursuing my bachelor's degree with a CGPA of 3.63. Selected for Dean's List for highest performance in Second Year Examination. Focusing on full-stack development, database systems, and software engineering.",
-    technologies: [
-      "Full-Stack Development",
-      "Database Systems",
-      "Software Engineering",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+      "RESTful APIs"
     ],
   },
 ];
